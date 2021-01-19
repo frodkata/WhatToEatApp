@@ -166,7 +166,7 @@ foreach($html->find('a.hreview-aggregate') as $a) {
 					<span class="rating"> 
 						<?php	echo($restaurants[$i]->get_rating()) ;?> 
 						<svg class="rating_star">
-							<?php echo file_get_contents("star.svg"); ?>
+							<?php if(!empty($restaurants[$i]->get_rating())) echo file_get_contents("star.svg"); ?>
 						</svg>
 					</span> <br>
 					<span class="description">  <?php	echo($restaurants[$i]->get_description()) ;?> </span>   <br>
