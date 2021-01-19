@@ -163,7 +163,12 @@ foreach($html->find('a.hreview-aggregate') as $a) {
  	<img src="  <?php echo($restaurants[$i]->get_imgUrl()) ;?>  ">
 		<div class="restaurant">
 					<span class="name"> <?php	echo($restaurants[$i]->get_name()) ;?> </span> <br>
-					<span class="rating"> <?php	echo($restaurants[$i]->get_rating()) ;?> </span> <br>
+					<span class="rating"> 
+						<?php	echo($restaurants[$i]->get_rating()) ;?> 
+						<svg class="rating_star">
+							<?php echo file_get_contents("star.svg"); ?>
+						</svg>
+					</span> <br>
 					<span class="description">  <?php	echo($restaurants[$i]->get_description()) ;?> </span>   <br>
 					<span class="buttons"> 
 								<svg class="yes" >

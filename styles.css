@@ -52,7 +52,10 @@ img{
 	font-weight:bold;
 }
 
-
+.rating_star{
+	width: 10;
+	height: 10;
+}
 
 
 
