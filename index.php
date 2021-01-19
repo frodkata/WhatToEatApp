@@ -154,6 +154,7 @@ foreach($html->find('a.hreview-aggregate') as $a) {
  <head>
   <title>Index</title>
     <link rel="stylesheet" href="./styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
  </head>

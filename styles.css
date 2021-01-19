@@ -33,13 +33,11 @@ img{
 
 
 	.polaroid {
-		width: 30%;
 		background-color: white;
 		box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 5.2), 0 6px 20px 0 rgba(0, 0, 0, 4.19);
 		margin: 25px;
 		padding: 1%;
 	  }
-
 
 
 
@@ -56,11 +54,6 @@ img{
 
 
 
-.yes, .next{
-	width:40;
-	height:40;
-}
-
 
 
 .yes:hover{
@@ -69,4 +62,75 @@ img{
 
 .next:hover{
 	fill: red;
+}
+
+
+/*MOBILE*/
+
+
+@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */ 
+	.polaroid{
+		width: 70%;
+		font-size: 100%;
+	}
+
+	.yes, .next {
+		width: 40;
+		height: 40;
+	}
+}
+@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+	.polaroid{
+		width: 50%;
+		font-size: 100%;
+	}
+
+	.yes, .next {
+		width: 30;
+		height: 30;
+	}
+}
+@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+	.polaroid{
+		width: 40%;
+		font-size: 100%;
+	}
+
+	.yes, .next {
+		width: 30;
+		height: 30;
+	}
+}
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+	.polaroid{
+		width: 35%;
+		font-size: 100%;
+	}
+
+	.yes, .next {
+		width: 30;
+		height: 30;
+	}
+}
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
+	.polaroid{
+		width: 30%;
+		font-size: 100%;
+	}
+
+	.yes, .next {
+		width: 30;
+		height: 30;
+	}
+}
+@media (min-width:1281px) { /* hi-res laptops and desktops */ 
+	.polaroid{
+		width: 25%;
+		font-size: 100%;
+	}
+
+	.yes, .next {
+		width: 30;
+		height: 30;
+	}
 }
