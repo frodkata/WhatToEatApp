@@ -3,7 +3,6 @@
 
 <h1>What to eat application</h1>
 <i>PHP data scrapper that lists FoodPanda restaurants and returns a random one each time</i> <br>
-<b>Application is online <a href ="https://gfwantstoeat.herokuapp.com/">here</a></b> <br>
 
 <b>Built using https://simplehtmldom.sourceforge.io/ </b>
 <h3>Stack:</h3>
